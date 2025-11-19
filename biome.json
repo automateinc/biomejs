@@ -71,8 +71,6 @@
 				"noUnusedLabels": "info",
 				"noUnusedVariables": "info",
 				"noUnusedImports": "info",
-				"noUnusedFunctionParameters": "info",
-				"noUnusedPrivateClassMembers": "info",
 				"useExhaustiveDependencies": "off",
 				"useHookAtTopLevel": "warn",
 				"useIsNan": "error",
