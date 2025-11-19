@@ -1,0 +1,8 @@
+{
+  "name": "@automateinc/biomejs",
+  "type": "module",
+  "version": "0.4.0",
+  "exports": {
+    "./config": "./biome.json"
+  }
+}
