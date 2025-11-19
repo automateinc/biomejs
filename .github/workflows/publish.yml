@@ -43,8 +43,6 @@ jobs:
 
           echo "version=$FINAL_VERSION" >> $GITHUB_OUTPUT
 
-      - run: npm ci
-
       - name: Publish to npm
         run: npm publish --provenance --access public --tag $( [[ "${{ github.ref_name }}" == "main" ]] && echo "latest" || echo "dev" )
         env:
