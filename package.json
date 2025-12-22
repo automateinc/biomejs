@@ -24,8 +24,7 @@
   "author": "Automate Inc. <hello@automate.bh> (https://automate.bh)",
   "license": "MIT",
   "devDependencies": {
-  },
-  "dependencies": {
+    "@biomejs/biome": "^2.3.10"
   },
   "bugs": {
     "url": "https://github.com/automateinc/biomejs/issues"
