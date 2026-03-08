@@ -1,9 +1,15 @@
 {
-  "name": "@automateinc/biomejs",
-  "type": "module",
-  "private": false,
-  "version": "0.0.0",
-  "scripts": {},
+  "author": "Automate Inc. <hello@automate.bh> (https://automate.bh)",
+  "bugs": {
+    "url": "https://github.com/automateinc/biomejs/issues"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.6"
+  },
+  "exports": {
+    "./config": "./biome.json"
+  },
+  "homepage": "https://github.com/automateinc/biomejs#readme",
   "keywords": [
     "biome",
     "biomejs",
@@ -14,20 +20,14 @@
     "css",
     "tailwindcss"
   ],
-  "exports": {
-    "./config": "./biome.json"
-  },
+  "license": "MIT",
+  "name": "@automateinc/biomejs",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/automateinc/biomejs.git"
   },
-  "author": "Automate Inc. <hello@automate.bh> (https://automate.bh)",
-  "license": "MIT",
-  "devDependencies": {
-    "@biomejs/biome": "^2.3.10"
-  },
-  "bugs": {
-    "url": "https://github.com/automateinc/biomejs/issues"
-  },
-  "homepage": "https://github.com/automateinc/biomejs#readme"
+  "scripts": {},
+  "type": "module",
+  "version": "0.0.0"
 }
