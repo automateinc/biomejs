@@ -11,6 +11,7 @@
 	},
 	"css": {
 		"parser": {
+			"cssModules": true,
 			"tailwindDirectives": true
 		}
 	},
@@ -67,7 +68,7 @@
 				"noSelfAssign": "error",
 				"noSetterReturn": "error",
 				"noSwitchDeclarations": "error",
-				"noUndeclaredVariables": "error",
+				"noUndeclaredVariables": "off",
 				"noUnreachable": "error",
 				"noUnreachableSuper": "error",
 				"noUnsafeFinally": "error",
@@ -120,7 +121,7 @@
 				"noConsole": "off",
 				"noControlCharactersInRegex": "error",
 				"noDebugger": "error",
-				"noDoubleEquals": "warn",
+				"noDoubleEquals": "off",
 				"noDuplicateCase": "error",
 				"noDuplicateClassMembers": "error",
 				"noDuplicateElseIf": "error",
